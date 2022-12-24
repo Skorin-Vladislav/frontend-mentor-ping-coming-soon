@@ -1,5 +1,6 @@
 import "./App.css";
 import logo from "./img/logo.svg";
+import Input from "./components/input-area/Input";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         </h1>
         <p>Subscribe and get notified</p>
       </div>
+        <Input />
     </div>
   );
 }
