@@ -23,6 +23,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  min-height: 100vh;
 }
 .header {
   margin-top: 5em;
@@ -59,4 +60,27 @@ body {
   max-width: 100%;
   margin: auto;
   padding: 1em 1.4em 0 1.4em;
+}
+
+.media {
+  min-width: 100px;
+  margin-top: 5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.media img {
+  width: 30px;
+  height: 30px;
+  border: var(--gray) 1px solid;
+  border-radius: 50%;
+  padding: 0.2em;
+}
+
+.cpy-right {
+  color: var(--gray);
+  margin-top: 3em;
+  font-size: 0.6em;
+  margin-bottom: 3em;
 }
