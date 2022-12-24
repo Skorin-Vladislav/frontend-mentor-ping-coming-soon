@@ -25,6 +25,10 @@
   margin-top: 1.1em;
 }
 
+.submit-btn:hover {
+  background-color: #88a5f0;
+}
+
 .input-area input {
   min-width: 100%;
   border: solid 1px #c8d3f4;
