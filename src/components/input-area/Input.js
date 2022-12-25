@@ -23,22 +23,15 @@ function Input() {
 
   return (
     <div className="input-area">
-      <input
-        className="e-mail"
-        id="Email"
-        type="email"
-        placeholder="Your email address..."
-      ></input>
-
-      {/* <input
-          type="email"
+      <div className="input-block">
+        <input
+          className="e-mail"
           id="Email"
-          name="Email"
-          placeholder="Email Address"
-          onChange={checkEmail}
-        ></input> */}
-
-      <p id="Email_error"></p>
+          type="email"
+          placeholder="Your email address..."
+        ></input>
+        <p id="Email_error"></p>
+      </div>
       <button className="submit-btn" onClick={checkEmail} type="submit">
         Notify Me
       </button>

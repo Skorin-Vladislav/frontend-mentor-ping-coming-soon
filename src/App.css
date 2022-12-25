@@ -90,11 +90,33 @@ body {
   .input-area {
     min-width: 80%;
     flex-direction: row;
-    align-items: center;
+    /* align-items: center; */
+
+    /* // */
+    align-items: flex-start !important;
   }
 
-  .input-area input {
+  .input-block {
     min-width: 60% !important;
+  }
+
+  .header .logo {
+    max-width: 30%;
+  }
+
+  .header h1 {
+    font-size: 1.6em;
+    letter-spacing: 1px;
+  }
+
+  .header p {
+    font-size: 0.9em;
+  }
+
+  #Email_error {
+    margin-left: 2.7em;
+    margin-top: 0.5em;
+    position: absolute;
   }
 
   .submit-btn {
